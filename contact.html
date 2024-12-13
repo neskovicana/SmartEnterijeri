@@ -34,25 +34,55 @@
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
 
-        <h1>O nama</h1>
+        <h1>Kontaktirajte nas</h1>
     </section>
 
-    <!-- -------about us content ------------ -->
+    <!-- -------contact us ------------ -->
 
-    <section class="about-us">
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11492.185625007896!2d18.78889351289612!3d43.93771323743688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758e6e9311db1a5%3A0x4ad03dca69186d9a!2z0KHQvtC60L7Qu9Cw0YYsINCR0L7RgdC90LAg0Lgg0KXQtdGA0YbQtdCz0L7QstC40L3QsA!5e0!3m2!1ssr!2srs!4v1734099908511!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="contact-us">
         <div class="row">
-            <div class="about-col">
-                <h1>Mi smo firma koja se bavi proizvodnjom pločastog namještaja</h1>
-                <p>Prilagodite svoj prostor s modernim, kvalitetnim i funkcionalnim namještajem izrađenim prema Vašim
-                    željama i potrebama.</p>
-                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            <div class="contact-col">
+                <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>Adresa 123</h5>
+                        <p>Sokolac, Bosna i Hercegovina</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h5>+387 413 4351452</h5>
+                        <p>Od ponedeljka do petka, 7:00-15:00</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h5>smartnamjestaj@gmail.com</h5>
+                        <p>Posaljite Vasa pitanja na email</p>
+                    </span>
+                </div>
             </div>
-            <div class="about-col">
-                <img src="images/logo.png">
+            <div class="contact-col">
+
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Unesite ime" required>
+                    <input type="email" name="email" placeholder="Unesite email adresu" required>
+                    <input type="text" name="subject" placeholder="Unesite temu" required>
+                    <textarea  rows="8" name="message" placeholder="Poruka" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Posaljite poruku</button>
+                </form>
+
             </div>
         </div>
     </section>
-
 
 
     <!-- ---------Footer-------- -->
